@@ -1,0 +1,60 @@
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  text-transform: none;
+}
+
+.u-green,
+.u-red,
+.u-blue,
+.u-yellow {
+  position: relative;
+}
+
+.u-green::after {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: 0.2em;
+  width: 100%;
+  content: "";
+  background-color: #a2fea1;
+  height: 0.3em;
+  z-index: -10000;
+}
+.u-red::after {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: 0.2em;
+  width: 100%;
+  content: "";
+  background-color: #fda0b3;
+  height: 0.3em;
+  z-index: -10000;
+}
+.u-blue::after {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: 0.2em;
+  width: 100%;
+  content: "";
+  background-color: #c6a0fe;
+  height: 0.3em;
+  z-index: -10000;
+}
+.u-yellow::after {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: 0.2em;
+  width: 100%;
+  content: "";
+  background-color: #fdfea1;
+  height: 0.3em;
+  z-index: -10000;
+}
