@@ -7,6 +7,14 @@
   text-transform: none;
 }
 
+blockquote {
+  font-size: 2rem;
+}
+.refer {
+  color: gray;
+  font-size: 0.7rem;
+}
+
 .u-green,
 .u-red,
 .u-blue,
